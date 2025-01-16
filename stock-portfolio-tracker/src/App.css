@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #393e46;
+  color: #fff;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sub-title {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.add-button,
+.edit-button,
+.delete-button {
+  background-color: #f0f1f1;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 0.5%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover,
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #364860;
+  color: #f0f1f1;
+}
+
+.portfolio {
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.stock-table th,
+.stock-table td {
+  padding: 10px;
+  text-align: left;
+  background-color: #2d2d2d;
+  border-bottom: 1px solid #ddd;
+
+}
+
+.stock-table th {
+
+  color: #fff;
+
+}
+
+.delete-button,
+.edit-button {
+  margin-top: 10px;
+}
+
+.profit {
+  background-color: #c5d86d;
+}
+
+.loss {
+  background-color: #ff847c;
+}

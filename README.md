@@ -10,3 +10,7 @@ How to SetUp?
 -> open terminal
   -> npm i
   -> npm start
+
+
+LIMITATION?
+-> install mongo db in your local computer
